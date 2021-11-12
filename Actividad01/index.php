@@ -32,6 +32,41 @@
             echo "Sistema Operativo:   $sistemaOperativo <br>";
             echo "Nombre:  $nombre <br>";
 
+        echo "<h2> Llamando al Array </h2>";
+
+        $usuario = [
+
+            'nombre' => 'Diego',
+            'apellido' => 'Barros',
+            'edad' => 36,
+            'hobbie' => 'Video Juegos y tocar el Bajo',
+            'editor' => 'Visual Estudio Code',
+            'sistemaOperativo' => 'Windows 11',
+
+
+        ];
+                
+        echo "<pre>";
+        var_dump($usuario);
+        echo "</pre>";
+
+        echo "<h2> Llamando por item </h2>";
+
+        echo "Nombre:  {$usuario ['nombre']}";
+        echo "<br>";
+        echo "Apellido: {$usuario ['apellido']}";
+        echo "<br>";
+        echo "Edad: {$usuario ['edad']}";
+        echo "<br>";
+        echo "Hobbie: {$usuario ['hobbie']}";
+        echo "<br>";
+        echo "Editor Preferido: {$usuario ['editor']}";
+        echo "<br>";
+        echo "Sistema Operativo: {$usuario ['sistemaOperativo']}";
+        echo "<br>";
+
+        echo "<br>";
+
 
     ?>
 </div>
