@@ -30,7 +30,7 @@
             echo "Hobbie:   $hobbie <br>";
             echo "Editor Preferido:   $editor <br>";
             echo "Sistema Operativo:   $sistemaOperativo <br>";
-            echo "Nombre:  $nombre <br>";
+            
 
         echo "<h2> Llamando al Array </h2>";
 
